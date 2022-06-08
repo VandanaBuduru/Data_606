@@ -6,7 +6,8 @@ This application can be used by any agency,  Insurance industry stakeholders, or
 
 This is a complete data-driven application that considers the existing data to predict the Status of the COnsumer complaints.
 
-img_1
+![image](https://user-images.githubusercontent.com/103658312/172515384-1771d091-78b9-47e4-838c-896d7c9639a5.png)
+
 
 **Background Information:**
 
@@ -18,7 +19,7 @@ As the population is growing and the impact of education has offered everyone to
 
 The intensity of the risk is growing as the world is advancing in globalization. With the increase in risk, it is quintessential to protect from unforeseen damages. Yes, it is common that as the insurance policies grow linearly, the associated problems in the policies grow at exponential levels.
 
-img_3
+![image](https://user-images.githubusercontent.com/103658312/172515514-9113472e-b3df-46fe-bc84-fa95390d450a.png)
 
 **Existing problems in the Insurance Sector:**
 
@@ -40,7 +41,8 @@ To develop an end-to-end data science application that is used by any insurance 
 
 To develop a comprehensive business understanding of the insurance industry and identification of problems that can be addressed by using data science practices.
 
-img_4
+![image](https://user-images.githubusercontent.com/103658312/172515579-0270698f-53dd-4efc-ba3b-ce2b7287775e.png)
+
 
 This project narrows the gaps between the insurer and insuree by addressing their problems and helping the insurance companies to cut the costs on their customer operations team that is served o address the problems faced by consumers. This could save a huge amount of capital for the insurance companies.
 
@@ -80,7 +82,8 @@ Output Variable: Status of the Complaint/claim
 
 Models Used:
 
-img_2
+![image](https://user-images.githubusercontent.com/103658312/172515638-c06846f5-c3ab-47ee-8301-ccc3ff7dd1bd.png)
+
 
 1. Simple Logistic Regression
 
