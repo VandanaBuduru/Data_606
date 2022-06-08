@@ -46,7 +46,7 @@ To develop a comprehensive business understanding of the insurance industry and 
 
 This project narrows the gaps between the insurer and insuree by addressing their problems and helping the insurance companies to cut the costs on their customer operations team that is served o address the problems faced by consumers. This could save a huge amount of capital for the insurance companies.
 
-Dataset Description: 
+**Dataset Description:** 
 
 Company: Name of the Insurance Company
 
@@ -70,7 +70,7 @@ Recovery: Amount recovered by the claim
 
 Status: Current Status of the insurance complaint
 
-Data Source:
+**Data Source:**
 
 https://data.ct.gov/Business/Insurance-Company-Complaints-Resolutions-Status-an/t64r-mt64
 
@@ -80,7 +80,7 @@ Number of Observations: 24398
 
 Output Variable: Status of the Complaint/claim
 
-Models Used:
+**Steps performed and Models Used:**
 
 ![image](https://user-images.githubusercontent.com/103658312/172515638-c06846f5-c3ab-47ee-8301-ccc3ff7dd1bd.png)
 
