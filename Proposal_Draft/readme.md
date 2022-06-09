@@ -48,24 +48,24 @@ This project narrows the gaps between the insurer and insuree by addressing thei
 
 **Dataset Description:** 
 
-Number of features: 12
+**Number of features:** 12
 
-List of features: ['Company', 'File No.', 'Opened', 'Closed', 'Coverage', 'SubCoverage',
+**List of features:** ['Company', 'File No.', 'Opened', 'Closed', 'Coverage', 'SubCoverage',
        'Reason', 'SubReason', 'Disposition', 'Conclusion', 'Recovery']
        
  Target Variable : Status
  
 **Features Descriptrion:**
 
-Company: Name of the Insurance Company, Feature Type: String
+**Company:** Name of the Insurance Company, **Feature Type:** String
 
-File No.: Consure problem primary identification number, Feature Type: Unique Integer Values 
+**File No.:** Consure problem primary identification number, **Feature Type:** Unique Integer Values 
 
-Opened: Date on which the complaint is registered, Feature Type: Date Time
+**Opened**: Date on which the complaint is registered, **Feature Type:** Date Time
 
-Closed: Date on which the complaint is resolved, Feature Type: Date Time
+**Closed:** Date on which the complaint is resolved, **Feature Type:** Date Time
 
-Coverage: Either Group/Individual Coverage, Feature Type: Categorical, List of Categorical Values: ['Group', 'Individual', 'A & H', nan, 'Unknown', 'Commercial',
+**Coverage:** Either Group/Individual Coverage, **Feature Type:** Categorical, **List of Categorical Values:** ['Group', 'Individual', 'A & H', nan, 'Unknown', 'Commercial',
        'Private Passenger', 'General', 'Homeowners', 'Travel',
        'Mobile Homeowner', 'Inland Marine', 'Other [Enter Coverage]',
        'Commercial Multi-Peril', 'Watercraft', 'Motorhome',
@@ -80,22 +80,22 @@ Coverage: Either Group/Individual Coverage, Feature Type: Categorical, List of C
        'Aircraft']
        
 
-Sub-Coverage: Specific Coverage types like health, dental, life, etc., Feature Type: String Values representing the reason of the claim
+**Sub-Coverage:** Specific Coverage types like health, dental, life, etc., **Feature Type:** String Values representing the reason of the claim
 
-Reason: The broad reason for the insurance complaint, Feature Type: Category, List of Categories: ['Marketing & Sales', 'Claim Handling', 'PolicyHolder Service', nan,
+**Reason:** The broad reason for the insurance complaint, **Feature Type:** Category, **List of Categories:** ['Marketing & Sales', 'Claim Handling', 'PolicyHolder Service', nan,
        'Underwriting']
 
-Sub_Reason: The reason for the insurance complaint at the low granular level, Feature Type: String Values representing the Sub-reason of the claim
+**Sub_Reason:** The reason for the insurance complaint at the low granular level, **Feature Type:** String Values representing the Sub-reason of the claim
 
-Disposition: Disposition of the claim or policy, Feature Type: Category, List of Categories: ['Claim Settled', 'Company Position Substantiated', nan,
+**Disposition:** Disposition of the claim or policy, **Feature Type:** Category, **List of Categories:** ['Claim Settled', 'Company Position Substantiated', nan,
        'No Action Requested/Required', 'Contract Provision/Legal Issue',
        'Compromised Settlement/Resolution', 'Insufficient Information',
        'Company Position Overturned', 'No Jurisdiction',
        'Complaint Withdrawn', 'Claim Reopened']
 
-Recovery: Amount recovered by the claim, Feature Type: Numreric, represennting the recovery claimed amount
+**Recovery:** Amount recovered by the claim, **Feature Type:** Numreric, represennting the recovery claimed amount
 
-Status: Current Status of the insurance complaint, Feature Type: Category, List of categories: ['Closed', 'Extension Granted', 'Sent to Company',
+**Status**: Current Status of the insurance complaint, **Feature Type:** Category, **List of categories:** ['Closed', 'Extension Granted', 'Sent to Company',
        'Preliminary Review - Expedited', 'Full Review - Standard',
        'Missing Items', 'Open', 'Interim Letter Sent', 'Reopened',
        'Incomplete Follow-up', 'Supervisor Review', 'Recovery Pending',
