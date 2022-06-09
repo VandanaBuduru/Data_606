@@ -35,7 +35,7 @@ The intensity of the risk is growing as the world is advancing in globalization.
 
 6. Economic Instability.
 
-Goals of the project:
+**Goals of the project:**
 
 To develop an end-to-end data science application that is used by any insurance industry stakeholders to predict the status of the problem status regarding their insurance policy issues.
 
@@ -54,28 +54,55 @@ List of features: ['Company', 'File No.', 'Opened', 'Closed', 'Coverage', 'SubCo
        'Reason', 'SubReason', 'Disposition', 'Conclusion', 'Recovery']
        
  Target Variable : Status
+ 
+**Features Descriptrion:**
 
-Company: Name of the Insurance Company
+Company: Name of the Insurance Company, Feature Type: String
 
-File No.: Consure problem primary identification number
+File No.: Consure problem primary identification number, Feature Type: Unique Integer Values 
 
-Opened: Date on which the complaint is registered
+Opened: Date on which the complaint is registered, Feature Type: Date Time
 
-Closed: Date on which the complaint is resolved
+Closed: Date on which the complaint is resolved, Feature Type: Date Time
 
-Coverage: Either Group/Individual Coverage
+Coverage: Either Group/Individual Coverage, Feature Type: Categorical, List of Categorical Values: ['Group', 'Individual', 'A & H', nan, 'Unknown', 'Commercial',
+       'Private Passenger', 'General', 'Homeowners', 'Travel',
+       'Mobile Homeowner', 'Inland Marine', 'Other [Enter Coverage]',
+       'Commercial Multi-Peril', 'Watercraft', 'Motorhome',
+       'Renters/Tenants', 'Condo/Town', 'Pet Insurance', 'Title',
+       'Federal Flood', 'Credit Property', 'Annuities', 'Group Life',
+       'Individual Life', 'Professional E & O', 'Workers Compensation',
+       'Ocean Marine', 'Umbrella', 'Life and Annuity', 'Dwelling Fire',
+       'Motorcycle', 'Farmowner/Ranchowner', 'Credit',
+       'Warranty Contract', 'Portable Electronics Ins',
+       'Fidelity & Surety', 'Rental', 'Federal Programs', 'Credit Life',
+       'Group Annuities', 'Fire, Allied Lines', "Builder's Risk",
+       'Aircraft']
+       
 
-Sub-Coverage: Specific Coverage types like health, dental, life, etc.
+Sub-Coverage: Specific Coverage types like health, dental, life, etc., Feature Type: String Values representing the reason of the claim
 
-Reason: The broad reason for the insurance complaint
+Reason: The broad reason for the insurance complaint, Feature Type: Category, List of Categories: ['Marketing & Sales', 'Claim Handling', 'PolicyHolder Service', nan,
+       'Underwriting']
 
-Sub_Reason: The reason for the insurance complaint at the low granular level
+Sub_Reason: The reason for the insurance complaint at the low granular level, Feature Type: String Values representing the Sub-reason of the claim
 
-Disposition: Disposition of the claim or policy
+Disposition: Disposition of the claim or policy, Feature Type: Category, List of Categories: ['Claim Settled', 'Company Position Substantiated', nan,
+       'No Action Requested/Required', 'Contract Provision/Legal Issue',
+       'Compromised Settlement/Resolution', 'Insufficient Information',
+       'Company Position Overturned', 'No Jurisdiction',
+       'Complaint Withdrawn', 'Claim Reopened']
 
-Recovery: Amount recovered by the claim
+Recovery: Amount recovered by the claim, Feature Type: Numreric, represennting the recovery claimed amount
 
-Status: Current Status of the insurance complaint
+Status: Current Status of the insurance complaint, Feature Type: Category, List of categories: ['Closed', 'Extension Granted', 'Sent to Company',
+       'Preliminary Review - Expedited', 'Full Review - Standard',
+       'Missing Items', 'Open', 'Interim Letter Sent', 'Reopened',
+       'Incomplete Follow-up', 'Supervisor Review', 'Recovery Pending',
+       'New Doc', 'Missing Information', 'No Response Follow-up',
+       'Sent to Agent', 'Awaiting Company Response',
+       'Preliminary Review - Standard', 'Awaiting Complainant Reponse',
+       'Verify Situs']
 
 **Data Source:**
 
