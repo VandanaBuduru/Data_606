@@ -4,7 +4,7 @@ This project aims at building a complete data science project which analyzes the
 
 This application can be used by any agency,  Insurance industry stakeholders, or the general public to predict the status of consumer filings against the insurance companies.
 
-This is a complete data-driven application that considers the existing data to predict the Status of the COnsumer complaints.
+This is a complete data-driven application that considers the existing data to predict the Status of the Consumer complaints.
 
 ![image](https://user-images.githubusercontent.com/103658312/172515384-1771d091-78b9-47e4-838c-896d7c9639a5.png)
 
@@ -47,6 +47,13 @@ To develop a comprehensive business understanding of the insurance industry and 
 This project narrows the gaps between the insurer and insuree by addressing their problems and helping the insurance companies to cut the costs on their customer operations team that is served o address the problems faced by consumers. This could save a huge amount of capital for the insurance companies.
 
 **Dataset Description:** 
+
+Number of features: 12
+
+List of features: ['Company', 'File No.', 'Opened', 'Closed', 'Coverage', 'SubCoverage',
+       'Reason', 'SubReason', 'Disposition', 'Conclusion', 'Recovery']
+       
+ Target Variable : Status
 
 Company: Name of the Insurance Company
 
