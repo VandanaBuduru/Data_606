@@ -24,27 +24,27 @@
 
 12)Compaints are resolved with the highest recovery amounts in Claim handling category.
 
-**Machine Learning Outcomes Evaluation Metric: F-Score**
+**Machine Learning Outcomes Evaluation Metric: F1-Score**
 
-1) The metrics such as Precision, Sensitivity, Recall, Specificity, F-Score, ROC-AUC Curve is used to evaluate the Classification problem.Here, we could observe that the output data is slightly imbalnced, here we could use the F-1 Score. F-1 score is generally useful when working with the imbalanced dataset and it also combines precision with recall into a single metric.
+1)The metrics such as Precision, Sensitivity, Recall, Specificity, F-Score, ROC-AUC Curve is used to evaluate the Classification problem.Here, we could observe that the output data is slightly imbalnced, here we could use the F-1 Score. F-1 score is generally useful when working with the imbalanced dataset and it also combines precision with recall into a single metric.
 
-2) f1_score is 94.1% with Logistic Regression with L2 penalty and AUC value is 96% that implies, the model is 96% accurate in distinguishing the classes.
+2)f1_score is 94.1% with Logistic Regression with L2 penalty and AUC value is 96% that implies, the model is 96% accurate in distinguishing the classes.
 
-3) f1_score is 94.1% with Logistic Regression with 10 folds Cross Validation,L2 penalty and liblinear solver.
+3)f1_score is 94.1% with Logistic Regression with 10 folds Cross Validation,L2 penalty and liblinear solver.
 
-4) f1_score is 94.1% with Logistic Regression with 10 folds Cross Validation,L2 penalty and Saga solver.
+4)f1_score is 94.1% with Logistic Regression with 10 folds Cross Validation,L2 penalty and Saga solver.
 
-5) f1_score is 99.1% using K-Nearest Neighbours, which is better then Logistic regression.
+5)f1_score is 99.1% using K-Nearest Neighbours, which is better then Logistic regression.
 
-6) f1_score is 99.1% using Decision Tree, which is better then Logistic regression and K-Nearest Neighbours.
+6)f1_score is 99.1% using Decision Tree, which is better then Logistic regression and K-Nearest Neighbours.
 
-7) f1_score is 99.1% using RandomForest, which is better then Logistic regression and K-Nearest Neighbours and quiet comparable to the decision tree algorithm.
+7)f1_score is 99.1% using RandomForest, which is better then Logistic regression and K-Nearest Neighbours and quiet comparable to the decision tree algorithm.
 
-8) f1_score is 99.1% using Xgboost classifier, which is better then Logistic regression and K-Nearest Neighbours and quiet comparable to the decision tree and RandomForest algorithm.
+8)f1_score is 99.1% using Xgboost classifier, which is better then Logistic regression and K-Nearest Neighbours and quiet comparable to the decision tree and RandomForest algorithm.
 
-9) f1_score is 96.9% using SVM classifier, which is better then Logistic regression and K-Nearest Neighbours and lower than decision tree, Xgboost and RandomForest algorithm.
+9)f1_score is 96.9% using SVM classifier, which is better then Logistic regression and K-Nearest Neighbours and lower than decision tree, Xgboost and RandomForest algorithm.
 
-10) By comparing all the above implemented models, we can conclude that K-Nearest Neighbours, Decision Tree, RandomForest, Xgboost classifiers has improved the performance of the model and any one of the models can be choosed for prtical business applications.
+10)By comparing all the above implemented models, we can conclude that K-Nearest Neighbours, Decision Tree, RandomForest, Xgboost classifiers has improved the performance of the model and any one of the models can be choosed for prtical business applications.
 
 **Further Improvements and outcomes:**
 
