@@ -90,7 +90,7 @@ Python,Machine Learning
 
 
 
-**The following is the report on he inferences drawn from Exploratory Data Analayasis :**
+**The following is the report on Exploratory Data Analayasis :**
 
 
 ![image](https://user-images.githubusercontent.com/103658312/185780101-4df3e803-c6f1-4742-899f-12ea7b206917.png)
@@ -120,7 +120,8 @@ Python,Machine Learning
 
 12)Compaints are resolved with the highest recovery amounts in Claim handling category.
 
-**Machine Learning Outcomes Evaluation Metric: F1-Score**
+**Machine Learning Inferences:**
+
 
 
 ![image](https://user-images.githubusercontent.com/103658312/185780297-3c4ddedc-a788-41bf-a61e-6963229debe8.png)
