@@ -6,7 +6,7 @@ As the population grows, so does the impact of education, which allows everyone 
 
 ![image](https://user-images.githubusercontent.com/103658312/185778897-91176fde-e6c8-4f85-ba16-61a382b384bb.png)
 
-**Youtube Video Link **
+**Youtube Video Link**
 
 https://youtu.be/LjdxQybmr_A
 
