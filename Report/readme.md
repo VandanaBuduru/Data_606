@@ -62,6 +62,8 @@ Python,Machine Learning
 
 **Machine Learning Algorithms implemented**
 
+![image](https://user-images.githubusercontent.com/103658312/185779330-da6f0bdf-f84d-4530-81f0-a64bfc33b1de.png)
+
 1)Logistic Regression
 
 2)Logistic Regression using Grid Search CV at various regularization strengths and liblinear solver
@@ -78,16 +80,18 @@ Python,Machine Learning
 
 8)SVM
 
-![image](https://user-images.githubusercontent.com/103658312/185779330-da6f0bdf-f84d-4530-81f0-a64bfc33b1de.png)
 
 **Evaluation Metric**
 
+**I have chosen F1-Score as evaluation metric**
+
+
 ![image](https://user-images.githubusercontent.com/103658312/185779377-50526d61-ee51-4781-bacb-e0181f9f13fa.png)
 
-I have chosen F1-Score as evaluation metric 
 
 
 **The following is the report on he inferences drawn from Exploratory Data Analayasis and Evaluation Metric:**
+
 
 1)2021, 2018 are the years with most consumer complaints reported.
 
