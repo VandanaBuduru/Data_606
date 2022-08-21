@@ -56,7 +56,8 @@ I have implmented the project as in below mentioned steps:
 
 Python,Machine Learning 
 
-![image](https://user-images.githubusercontent.com/103658312/185779166-7d217afa-cbdd-4d8a-bb68-ad0262c8a939.png), 
+![image](https://user-images.githubusercontent.com/103658312/185779166-7d217afa-cbdd-4d8a-bb68-ad0262c8a939.png), ![image](https://user-images.githubusercontent.com/103658312/185780014-76b7cc5f-529a-47de-9cc1-a5c7ac6e4f75.png)
+
 
 
 **Machine Learning Algorithms implemented**
