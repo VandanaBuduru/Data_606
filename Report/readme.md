@@ -90,7 +90,10 @@ Python,Machine Learning
 
 
 
-**The following is the report on he inferences drawn from Exploratory Data Analayasis and Evaluation Metric:**
+**The following is the report on he inferences drawn from Exploratory Data Analayasis :**
+
+
+![image](https://user-images.githubusercontent.com/103658312/185780101-4df3e803-c6f1-4742-899f-12ea7b206917.png)
 
 
 1)2021, 2018 are the years with most consumer complaints reported.
@@ -119,6 +122,10 @@ Python,Machine Learning
 
 **Machine Learning Outcomes Evaluation Metric: F1-Score**
 
+
+![image](https://user-images.githubusercontent.com/103658312/185780297-3c4ddedc-a788-41bf-a61e-6963229debe8.png)
+
+
 1)The metrics such as Precision, Sensitivity, Recall, Specificity, F-Score, ROC-AUC Curve is used to evaluate the Classification problem.Here, we could observe that the output data is slightly imbalnced, here we could use the F-1 Score. F-1 score is generally useful when working with the imbalanced dataset and it also combines precision with recall into a single metric.
 
 2)f1_score is 94.1% with Logistic Regression with L2 penalty and AUC value is 96% that implies, the model is 96% accurate in distinguishing the classes.
@@ -139,7 +146,15 @@ Python,Machine Learning
 
 10)By comparing all the above implemented models, we can conclude that K-Nearest Neighbours, Decision Tree, RandomForest, Xgboost classifiers has improved the performance of the model and any one of the models can be choosed for prtical business applications.
 
+![image](https://user-images.githubusercontent.com/103658312/185780319-369eda32-34bd-40ea-840f-07e0de86cdef.png)
+
+
+
+
 **Further Improvements and outcomes:**
+
+![image](https://user-images.githubusercontent.com/103658312/185780241-bcaf0685-d29f-4425-85dc-93920d4b7abb.png)
+
 
 It's better to have a business understanding of the data and the how seerity the data is. The basic understanding helps in formatting the data and making it suitable for production scale applications and for developing consumer end applications.
 
